@@ -29,5 +29,12 @@
         android:title="@string/pulse_ambient_light_category"
         android:summary="@string/pulse_ambient_light_summary"
         android:fragment="com.aosip.owlsnest.fragments.system_misc.EdgeLightingSettings" />
+        
+    <!-- Gaming mode -->
+    <Preference
+        android:key="gaming_category"
+        android:title="@string/gaming_title" 
+        android:fragment="com.aosip.owlsnest.fragments.system_misc.GamingModeSettings"
+        android:icon="@drawable/ic_settings_gaming"/>
 
 </PreferenceScreen>
