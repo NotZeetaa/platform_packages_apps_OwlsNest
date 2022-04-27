@@ -33,7 +33,7 @@ public class DanmakuSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.exthm_settings_gaming_danmaku);
+        addPreferencesFromResource(R.xml.aosip_gaming_danmaku);
 
     }
 

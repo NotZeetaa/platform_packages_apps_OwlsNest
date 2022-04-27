@@ -40,7 +40,7 @@ public class GamingModeSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.exthm_settings_gaming);
+        addPreferencesFromResource(R.xml.aosip_gaming);
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
 

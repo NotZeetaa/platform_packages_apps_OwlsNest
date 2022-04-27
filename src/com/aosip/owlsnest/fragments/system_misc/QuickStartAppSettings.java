@@ -32,7 +32,7 @@ public class QuickStartAppSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.exthm_settings_gaming_qs_app);
+        addPreferencesFromResource(R.xml.aosip_gaming_qs_app);
     }
 
     @Override
