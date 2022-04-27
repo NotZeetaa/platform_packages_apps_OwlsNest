@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.exthmui.settings.fragments;
+package com.aosip.owlsnest.fragments.system_misc;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -30,13 +30,10 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.ArrayList;
 
-import org.exthmui.settings.preferences.PackageListPreference;
-
-import lineageos.hardware.LineageHardwareManager;
+import com.aosip.owlsnest.preferences.PackageListPreference;
 
 public class GamingModeSettings extends SettingsPreferenceFragment {
 
-    private SwitchPreference mHardwareKeysDisable;
     private PackageListPreference mGamingPrefList;
 
     @Override
@@ -46,12 +43,6 @@ public class GamingModeSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.exthm_settings_gaming);
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mHardwareKeysDisable = findPreference(Settings.System.GAMING_MODE_DISABLE_HW_KEYS);
-        LineageHardwareManager mLineageHardware = LineageHardwareManager.getInstance(getActivity());
-        if (!mLineageHardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE)) {
-            prefScreen.removePreference(mHardwareKeysDisable);
-        }
 
         mGamingPrefList = (PackageListPreference) findPreference("gaming_mode_app_list");
         mGamingPrefList.setRemovedListKey(Settings.System.GAMING_MODE_REMOVED_APP_LIST);

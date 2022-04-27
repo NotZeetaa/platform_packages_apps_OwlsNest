@@ -39,8 +39,8 @@ import com.android.settings.R;
 import java.util.Arrays;
 import java.util.ArrayList;
 
-import com.aosip.owlsnest.preferences.PackageListAdapter;
-import com.aosip.owlsnest.preferences.PackageListAdapter.PackageItem;
+import com.aosip.support.preference.PackageListAdapter;
+import com.aosip.support.preference.PackageListAdapter.PackageItem;
 
 public class PackageListPreference extends PreferenceCategory implements
         Preference.OnPreferenceClickListener {
