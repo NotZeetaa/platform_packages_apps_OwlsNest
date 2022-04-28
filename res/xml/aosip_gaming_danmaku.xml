@@ -32,7 +32,7 @@
         android:defaultValue="true"
         android:dependency="gaming_mode_show_danmaku" />
 
-    <com.aosip.support.preferences.SystemSettingSeekBarPreference
+    <com.aosip.owlsnest.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_size_horizontal"
         android:title="@string/gaming_mode_danmaku_size_horizontal_title"
         android:defaultValue="36"
@@ -41,7 +41,7 @@
         settings:units="px"
         android:dependency="gaming_mode_show_danmaku" />
 
-    <com.aosip.support.preferences.SystemSettingSeekBarPreference
+    <com.aosip.owlsnest.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_size_vertical"
         android:title="@string/gaming_mode_danmaku_size_vertical_title"
         android:defaultValue="36"
@@ -50,7 +50,7 @@
         settings:units="px"
         android:dependency="gaming_mode_show_danmaku" />
 
-    <com.aosip.support.preferences.SystemSettingSeekBarPreference
+    <com.aosip.owlsnest.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_speed_horizontal"
         android:title="@string/gaming_mode_danmaku_speed_horizontal_title"
         android:defaultValue="300"
@@ -59,7 +59,7 @@
         settings:units="px/s"
         android:dependency="gaming_mode_show_danmaku" />
 
-    <com.aosip.support.preferences.SystemSettingSeekBarPreference
+    <com.aosip.owlsnest.preferences.SystemSettingSeekBarPreference
         android:key="gaming_mode_danmaku_speed_vertical"
         android:title="@string/gaming_mode_danmaku_speed_vertical_title"
         android:defaultValue="300"
@@ -68,7 +68,7 @@
         settings:units="px/s"
         android:dependency="gaming_mode_show_danmaku" />
 
-    <com.aosip.support.preferences.SystemSettingSeekBarPreference
+    <com.aosip.owlsnest.preferences.SystemSettingSeekBarPreference
         android:title="@string/gaming_mode_danmaku_blacklist"
         android:key="gaming_mode_danmaku_app_blacklist"
         android:dependency="gaming_mode_show_danmaku" />
